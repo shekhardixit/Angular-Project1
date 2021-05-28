@@ -8,7 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[]= [
-    new Recipe('A test recipe','This is simple a test', 'https://www.google.com/search?q=recipe&sxsrf=ALeKk0320HP6rRt_hMgTNQo1P1bKsvi_yQ:1622230590971&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiw8fjwj-3wAhXv6XMBHTmaA4YQ_AUoA3oECAEQBQ&biw=1536&bih=722#imgrc=SnEqdOzPfKvxYM')
+    new Recipe('A test recipe','This is simple a test', 'https://img.buzzfeed.com/video-api-prod/assets/eb44570519264864814264f7f0a5e47a/BFV13909_BakedRatatouille-ThumbTextless1080.jpg?output-format=auto&output-quality=auto')
   ];
   
 
